@@ -32,6 +32,8 @@ jobs:
         cmd: install
     - name: Installing surge
       run: npm install -g surge
+    - name: install node-sass
+      run: npm rebuild node-sass
     - name: Creating build
       run: yarn build
     - name: deploying on surge
