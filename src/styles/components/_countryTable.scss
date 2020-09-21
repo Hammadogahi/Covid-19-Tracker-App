@@ -1,0 +1,42 @@
+table {
+  clear: both;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+  max-width: none !important;
+  border-collapse: collapse !important;
+  border: 1px solid #dee2e6;
+  width: 100%;
+  color: #696969;
+
+  thead {
+    border-bottom: 2px solid #dee2e6;
+  }
+  th {
+    padding: 1rem !important;
+    font-weight: 700;
+    text-align: left;
+  }
+  tbody tr:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  td {
+    padding: 1rem;
+    color: #000;
+    border: 1px solid #dee2e6;
+  }
+
+  .newDeaths {
+    background-color: #db0200;
+    color: white;
+  }
+  .newDeaths::before {
+    content: "+";
+  }
+}
+
+@media (max-width: 998px) {
+  .countryPicker {
+    overflow-x: auto !important;
+  }
+}

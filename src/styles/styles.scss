@@ -1,0 +1,19 @@
+@import-normalize;
+@import "./components/base";
+@import "./components/settings";
+@import "./components/header";
+@import "./components/statistics";
+@import "./components/countryPicker";
+@import "./components/countryTable";
+@import "./components/charts";
+.main-wrapper {
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(135, 135, 135, 0.1);
+  padding: 0 40px 50px 40px;
+  margin-top: -70px;
+  background: #fff;
+  position: relative;
+  z-index: 999999;
+  margin-bottom: 100px;
+}

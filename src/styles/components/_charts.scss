@@ -1,0 +1,17 @@
+.lineChart {
+  padding-top: 50px;
+}
+
+.doughnutCart {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .lineChart {
+    display: none;
+  }
+  .doughnutCart {
+    padding-top: 50px;
+    display: block;
+  }
+}
